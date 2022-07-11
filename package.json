@@ -7,7 +7,8 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "dependencies": {
     "@expo-google-fonts/heebo": "^0.2.2",
